@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	
+
+}
+
+body{
+	background-color: #000000;
+	
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: Oswald;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: Oswald;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: Oswald;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background:
+       	  url(../img/dados.png) left top no-repeat,
+          url(../img/mesa.jpg) 0 0 no-repeat;
+
+}
+
+
+
+.degradado {
+	width: 960px;
+	height: 640px;
+	background-image: linear-gradient(top, #9e0142 0%, #b91f48 5%, #d53e4f 9%, #e45549 14%, #f46d43 18%, #f88d52 23%, #fdae61 27%, #fdc776 32%, #fee08b 36%, #feefa5 41%, #ffffbf 45%, #f2faab 50%, #e6f598 55%, #c8e99e 59%, #abdda4 64%, #88cfa4 68%, #66c2a5 73%, #4ca5b1 77%, #3288bd 82%, #486baf 86%, #5e4fa2 91%, #5e4fa2 95%, #5e4fa2 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9e0142), color-stop(0.046, #b91f48), color-stop(0.091, #d53e4f), color-stop(0.136, #e45549), color-stop(0.1819999995, #f46d43), color-stop(0.227, #f88d52), color-stop(0.2729999995, #fdae61), color-stop(0.318, #fdc776), color-stop(0.3639999995, #fee08b), color-stop(0.40900000000000003, #feefa5), color-stop(0.45499999950000003, #ffffbf), color-stop(0.5, #f2faab), color-stop(0.5459999995, #e6f598), color-stop(0.591, #c8e99e), color-stop(0.6360000004999999, #abdda4), color-stop(0.6819999999999999, #88cfa4), color-stop(0.7270000004999999, #66c2a5), color-stop(0.7729999999999999, #4ca5b1), color-stop(0.8180000004999999, #3288bd), color-stop(0.8639999999999999, #486baf), color-stop(0.9090000004999998, #5e4fa2), color-stop(0.9549999999999998, #5e4fa2), color-stop(0.9999999999999999, #5e4fa2));
+background-image: -moz-linear-gradient(top, #9e0142 0%, #b91f48 5%, #d53e4f 9%, #e45549 14%, #f46d43 18%, #f88d52 23%, #fdae61 27%, #fdc776 32%, #fee08b 36%, #feefa5 41%, #ffffbf 45%, #f2faab 50%, #e6f598 55%, #c8e99e 59%, #abdda4 64%, #88cfa4 68%, #66c2a5 73%, #4ca5b1 77%, #3288bd 82%, #486baf 86%, #5e4fa2 91%, #5e4fa2 95%, #5e4fa2 100%);
+background-image: -o-linear-gradient(top, #9e0142 0%, #b91f48 5%, #d53e4f 9%, #e45549 14%, #f46d43 18%, #f88d52 23%, #fdae61 27%, #fdc776 32%, #fee08b 36%, #feefa5 41%, #ffffbf 45%, #f2faab 50%, #e6f598 55%, #c8e99e 59%, #abdda4 64%, #88cfa4 68%, #66c2a5 73%, #4ca5b1 77%, #3288bd 82%, #486baf 86%, #5e4fa2 91%, #5e4fa2 95%, #5e4fa2 100%);
+background-image: -ms-linear-gradient(top, #9e0142 0%, #b91f48 5%, #d53e4f 9%, #e45549 14%, #f46d43 18%, #f88d52 23%, #fdae61 27%, #fdc776 32%, #fee08b 36%, #feefa5 41%, #ffffbf 45%, #f2faab 50%, #e6f598 55%, #c8e99e 59%, #abdda4 64%, #88cfa4 68%, #66c2a5 73%, #4ca5b1 77%, #3288bd 82%, #486baf 86%, #5e4fa2 91%, #5e4fa2 95%, #5e4fa2 100%);
+}
+
+
+.filtro1{
+	filter: blur(5px);
+}
+
+.filtro2{
+	filter: sepia(1);
+}
+
+.columnas{
+	width: 960px;
+	height: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid #f00;
+}
+
+.bordes{
+	border: 4px solid #553245;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+.transparencia{
+	width: 960px;
+	height: 640px;
+	background: 
+	url("../img/conejos.jpg") 0 0 no-repeat;
+	background-size: 760px 640px;
+	opacity: 0.5;
+}
+
+.sombra{
+	width: 960px;
+	height: 440px;
+
+	column-count: 2;
+	column-gap: 40px;
+	padding: 4%;
+	box-shadow: 30px 10px 20px #4f8a83; 
+	border-radius: 20px;  
+	background-color:#e76278;
+
+	box-shadow: inset 0px 0px 40px #f00,
+                    0px 0px 40px #ff0; 
+  border-radius: 20px;  
+
+}
